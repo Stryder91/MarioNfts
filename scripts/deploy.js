@@ -9,9 +9,6 @@ async function main() {
   console.log("Success! Contract was deployed to: ", superMarioWorld.address);
 
   await superMarioWorld.mint(10);
-  await superMarioWorld.mint(10);
-  await superMarioWorld.mint(10);
-  await superMarioWorld.mint(10);
 
   console.log("NFT successfully minted");
 }
